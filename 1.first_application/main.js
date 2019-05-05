@@ -4,9 +4,9 @@ $(document).ready(function() {
     paper.setup(document.getElementById('mainCanvas'));
     
     var c;
-    for(var x=25; x<400; x+=50) {
-        for(var y=25; y<400; y+=50) {
-            c = Shape.Circle(x, y, 20);
+    for(var x=0; x<8; x++) {
+        for(var y=0; y<8; y++) {
+            c = Shape.Circle(25+50*x,25+50*y, 20);
             c.fillColor = 'green';
         }
     }
