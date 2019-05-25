@@ -2,7 +2,7 @@
 // es6 function: Declare block scope variable.
 const sentences = [
     { subject: 'JavaScript', verb: 'is', object: 'great' },
-    { subject: 'Elephants', verb: 'are', object: 'large' },
+    { subject: 'Elephants', verb: 'are', object: 'large' }
 ];
 // es6 function: Disassemble Object
 function say({ subject, verb, object }) {
