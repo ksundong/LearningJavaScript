@@ -1,0 +1,28 @@
+{
+  "name": "learningjavascript",
+  "version": "1.0.0",
+  "description": "= Learning JavaScript, 3rd Edtion == Chapter 2: JavaScript Development Tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ksundong@github.com/ksundong/LearningJavaScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksundong/LearningJavaScript/issues"
+  },
+  "homepage": "https://github.com/ksundong/LearningJavaScript#readme",
+  "dependencies": {
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0"
+  }
+}
